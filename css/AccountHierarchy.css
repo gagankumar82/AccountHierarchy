@@ -1,0 +1,24 @@
+.accountHierarchyContainer {
+    font-family: Arial, sans-serif;
+    color: rgb(40, 116, 252);
+}
+
+.accountNode {
+    padding: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.addressTooltip {
+    position: fixed;
+    background: white;
+    border: 1px solid rgb(40, 116, 252);
+    padding: 4px;
+    z-index: 1000;
+    display: none;
+    color: black;
+}
+
+.children {
+    margin-left: 15px;
+}
